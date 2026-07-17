@@ -1,0 +1,9 @@
+FROM golang:1.22
+
+WORKDIR /app
+
+COPY . .
+
+RUN go build -o count words in a string "count words in a string.go"
+
+CMD ["./count words in a string"]

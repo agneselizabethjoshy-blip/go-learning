@@ -1,0 +1,9 @@
+FROM golang:1.22
+
+WORKDIR /app
+
+COPY . .
+
+RUN go build -o sort an array "sort an array.go"
+
+CMD ["./sort an array"]
